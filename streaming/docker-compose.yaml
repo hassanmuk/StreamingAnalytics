@@ -45,7 +45,7 @@ services:
   data-source:
     image: eecs4415/python
     environment:
-      - TOKEN=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
+      - TOKEN=Dummy
     volumes:
       - ../streaming:/streaming
     command: python3.9 -u /streaming/data_source.py
